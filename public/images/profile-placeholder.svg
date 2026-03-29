@@ -1,0 +1,30 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient définition -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c5cff;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#5f7bff;stop-opacity:0.2" />
+    </linearGradient>
+    <radialGradient id="avatarGradient" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#e6eef6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9aa6b2;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Circle de base -->
+  <circle cx="200" cy="200" r="180" fill="url(#avatarGradient)" opacity="0.3"/>
+  
+  <!-- Tête (cercle) -->
+  <circle cx="200" cy="140" r="50" fill="url(#avatarGradient)"/>
+  
+  <!-- Corps (rectangle arrondi) -->
+  <ellipse cx="200" cy="270" rx="65" ry="80" fill="url(#avatarGradient)"/>
+  
+  <!-- Texte indicatif -->
+  <text x="200" y="360" font-family="Inter, sans-serif" font-size="16" fill="#9aa6b2" text-anchor="middle">
+    Ajoutez votre photo
+  </text>
+</svg>
