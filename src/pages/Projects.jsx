@@ -26,6 +26,13 @@ const detailedProjects = [
     link: 'https://github.com/ENAK221/Chifoumi',
     
   },
+  {
+  id: 4,
+    title: 'Edusphere - Plateforme de gestion des écoles',
+    desc: 'Edusphere est une plateforme de gestion scolaire complète que j’ai développée pour faciliter l’administration des écoles. Elle offre des fonctionnalités telles que la gestion des étudiants, des enseignants, des cours et des emplois du temps, avec une interface conviviale et responsive.',
+    tech: ['React', 'Node.js', 'Express', 'PostgreSQL.'],
+    link: 'https://69de3fa5e9ee31073d620ad3--fancy-praline-46bbc3.netlify.app/login',
+},
  /* {
     id: 4,
     title: 'AI Content Generator',
