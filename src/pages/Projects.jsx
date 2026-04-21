@@ -8,32 +8,43 @@ const detailedProjects = [
     desc: 'Application mobile de commerce électronique.',
     tech: ['PHP', 'HTML', 'CSS', 'JavaScript', 'MySQL'],
     link: 'https://github.com/ENAK221/projet-finale',
-    
+    demo: 'https://mina-kane.fr/',
+    bg: 'linear-gradient(135deg, #0f172a, #1e293b)' // E-commerce / Tech
   },
   {
     id: 2,
     title: 'Minachat - Social Media App',
-    desc: 'MinaChat — réseau social centré sur la messagerie instantanée, le partage multimédia et les contrôles de confidentialité.',
+    desc: 'MinaChat — réseau social centré sur la messagerie instantanée.',
     tech: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Prisma'],
     link: 'https://github.com/ENAK221/minachat',
-    demo: '#'
+    demo: 'https://minachatsite.vercel.app/',
+    bg: 'linear-gradient(135deg, #1e3a8a, #3b82f6)' // Social / Moderne
   },
   {
-    id: 3,
-    title: 'Chifoumi Game',
-    desc: 'Chifoumi est une petite application interactive que j’ai développée pour tester et consolider mes compétences en JavaScript. Le jeu propose des manches rapides de pierre, feuille, ciseaux entre le joueur et l’ordinateur, avec un suivi du score et des retours visuels pour chaque action.',
-    tech: ['JavaScript', 'HTML', 'CSS'],
-    link: 'https://github.com/ENAK221/Chifoumi',
     
-  },
+  id: 3,
+  title: 'Chifoumi Game',
+  desc: 'Jeu interactif pierre-feuille-ciseaux avec score et animations.',
+  tech: ['JavaScript', 'HTML', 'CSS'],
+  link: 'https://github.com/ENAK221/Chifoumi',
+  demo: '/chifoumi.png',
+  bg: 'linear-gradient(135deg, #4f46e5, #a855f7)'
+}
+
+    
+  ,
   {
-  id: 4,
+    id: 4,
     title: 'Edusphere - Plateforme de gestion des écoles',
-    desc: 'Edusphere est une plateforme de gestion scolaire complète que j’ai développée pour faciliter l’administration des écoles. Elle offre des fonctionnalités telles que la gestion des étudiants, des enseignants, des cours et des emplois du temps, avec une interface conviviale et responsive.',
-    tech: ['React', 'Node.js', 'Express', 'PostgreSQL.'],
+    desc: 'Plateforme complète pour la gestion scolaire.',
+    tech: ['React', 'Node.js', 'Express', 'PostgreSQL'],
     link: 'https://gestedusphere.netlify.app/login',
-},
- /* {
+    demo: 'https://edusphere-df3ezs7x6-enak221.vercel.app/login',
+    bg: 'linear-gradient(135deg, #0ea5e9, #22d3ee)' // Education / Dashboard
+  },
+
+
+ /* 
     id: 4,
     title: 'AI Content Generator',
     desc: 'Outil SaaS utilisant OpenAI API pour générer du contenu marketing automatisé.',
